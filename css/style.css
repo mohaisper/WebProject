@@ -1254,6 +1254,11 @@ ul{
     flex-direction: column;
     justify-content: space-between;
 }
+@media (max-width:767px) {
+    .video .holder .preview{
+        display: none;
+    }
+}
 .video .holder .preview img{
     max-width: 100%;
 }
